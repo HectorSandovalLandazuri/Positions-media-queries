@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: green;
+    color:white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    position: sticky;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+img {
+    float: left;
+}
+
+p {
+    clear: right;
+}
+
+div {
+    height: 200px;
+    width: 25%;
+    float: left;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background:green;
+}
+
+.three {
+    background: blue;
+}
+
+.four {
+    background: yellow;
+}
+
+.fixed {
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+}
+
+.oneb {
+    background: blue;
+    color: white;
+}
+
+.twob {
+    background: red;
+    color: white;
+    /* position:relative; */
+}
+
+.special {
+    background: pink;
+    font-size: 20px;
+    color:#222;
+}
+
+.container {
+    min-height: 300vh;
+    background: blue;
+}
